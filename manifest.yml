@@ -1,0 +1,8 @@
+applications:
+- name: javatechie-microservice
+path: target/service-registry-pcf.jar
+domain: cfapps.io
+memory: 1G
+instances: 1
+services:
+- javatechie-serviceregistry
